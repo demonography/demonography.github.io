@@ -1,0 +1,33 @@
+body {
+  background-color: #efefef;
+  font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+p {
+    line-height: 1.35em;
+}
+
+
+pre {
+    display: block;
+    background: #12131a;
+    width: 90%;
+
+  }
+code {
+    font-family: "Anonymous Pro",courier;
+    background: #12131a;
+    font-size: 1.25rem;
+    color: #ffffff;
+    padding: 0 3px;
+  }

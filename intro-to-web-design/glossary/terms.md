@@ -20,8 +20,8 @@ Short for HyperText Markup Language - used to structure a web page.
 # CSS
 Short for Cascading Style Sheets - used to control how a page in HTML is displayed, affecting things like font styles, font sizes, colours, spacing, and positioning of elements.
 
-CMS
-Short for Content Management System -
+# CMS
+Short for Content Management System.
 
 User Experience (UX)
 

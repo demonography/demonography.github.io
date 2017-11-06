@@ -1,0 +1,23 @@
+main {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 60px auto;
+  width: 100%;
+  padding: 10px 20px;
+  max-width: 780px;
+}
+
+.glossary__row {
+  display: flex;
+  margin: 10px 0;
+  width: 100%;
+  padding: 2em 1em;
+  border-bottom: 1px dashed #555555;
+
+  & > div {
+    width: 50%;
+  }
+}
