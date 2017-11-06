@@ -1,8 +1,13 @@
+$blue-dark: #1C2541;
+
 body {
   background-color: #efefef;
   font-family: 'Work Sans';
   font-weight: 400;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -22,13 +27,13 @@ p {
 
 pre {
     display: block;
-    background: #12131a;
+    background: $blue-dark;
     width: 90%;
 
   }
 code {
     font-family: "Anonymous Pro",courier;
-    background: #12131a;
+    background: $blue-dark;
     font-size: 1.25rem;
     color: #ffffff;
     padding: 0 3px;
