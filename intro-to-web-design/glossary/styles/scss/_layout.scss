@@ -3,7 +3,6 @@ body {
 }
 main {
   width: 100%;
-  box-sizing: border-box;
 }
 
 section {
@@ -19,8 +18,19 @@ section {
   width: 100%;
   padding: 2em 1em;
   border-bottom: 1px dashed #555555;
+  @media screen and (max-width:680px) {
+    display: block;
+  }
 
   & > div {
     width: 50%;
+    @media screen and (max-width:680px) {
+      width: 100%;
+    }
   }
+}
+
+.results {
+  font-size: 16px;
+  line-height: 1.4em;
 }
