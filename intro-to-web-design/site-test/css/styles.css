@@ -12,3 +12,18 @@ nav ul li {
     display: inline-block;
     border: 2px solid red;
 }
+
+.button {
+    background: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    transition: all 0.8s ease;
+    transform: rotate(0deg);
+    position: absolute;
+}
+.button:hover {
+    background: blue;
+    font-size: 50px;
+    transform: rotate(30deg);
+}
