@@ -429,8 +429,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_300x250_drawing.jpg", id:"_300x250_drawing"},
-		{src:"images/_300x250_photo.jpg", id:"_300x250_photo"}
+		{src:"images/300x250_drawing.jpg", id:"_300x250_drawing"},
+		{src:"images/300x250_photo.jpg", id:"_300x250_photo"}
 	],
 	preloads: []
 };
