@@ -345,7 +345,7 @@ p.nominalBounds = new cjs.Rectangle(4,57,120.4,30.9);
 	this.instance = new lib.Image();
 	this.instance.parent = this;
 	this.instance.setTransform(128,115.5,2.221,2.221,0,0,0,61,31.5);
-	this.instance.alpha = 0.301;
+	this.instance.alpha = 0.602;
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
@@ -396,7 +396,6 @@ p.nominalBounds = new cjs.Rectangle(4,57,120.4,30.9);
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(115.5,45,1,1,0,0,0,102.5,29.7);
 	this.instance_2.alpha = 0;
-	this.instance_2.shadow = new cjs.Shadow("rgba(255,255,255,1)",1,2,2);
 	this.instance_2._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(71).to({_off:false},0).to({y:38,alpha:1},14,cjs.Ease.quartInOut).wait(155));
@@ -482,8 +481,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/300x250_drawing.jpg", id:"_300x250_drawing"},
-		{src:"images/300x250_photo.jpg", id:"_300x250_photo"},
+		{src:"images/_300x250_drawing.jpg", id:"_300x250_drawing"},
+		{src:"images/_300x250_photo.jpg", id:"_300x250_photo"},
 		{src:"images/Image_0.png", id:"Image_0"}
 	],
 	preloads: []
